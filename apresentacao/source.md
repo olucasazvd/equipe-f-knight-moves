@@ -107,6 +107,16 @@ Os movimentos válidos entre duas casas. Cada casa tem, no máximo, 8 vizinhos d
 - **Não direcionado** — o movimento do cavalo é reversível: se u → v é válido, v → u também é.
 - **Não ponderado** — todas as arestas têm peso implícito igual a 1 (cada movimento conta como uma unidade de distância).
 
+**Lista de Adjacência**
+
+Representação do grafo: cada casa aponta para as casas alcançáveis por um movimento de cavalo.
+
+```md
+e4: d6, f6, c5, g5, c3, g3, d2, f2
+d6: e4, f5
+f6: e4, d5
+```
+
 ---
 
 ## Instância Pequena (exemplo)
