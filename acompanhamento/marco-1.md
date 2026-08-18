@@ -31,14 +31,12 @@ Um valor inteiro, definindo o mínimo de movimentos necessários para ir da casa
 - Tabuleiro fixo (8x8) → |V| = 64
 - Grafo simples (sem loops, sem arestas paralelas) e conexo (existe caminho entre quaisquer dois vértices, já que o grafo de movimentos do cavalo em um tabuleiro 8×8 é conexo)
 - Grau máximo Δ(G) = 8; grau mínimo δ(G) = 2 (casas de canto)
-  
-#### Vértices e Arestas 
 
-**Vértices** 
-- Cada uma das 64 casas do tabuleiro, identificadas por `(col, lin)`.
+#### Vértices 
+Cada uma das 64 casas do tabuleiro, identificadas por `(col, lin)`.
 
-**Arestas**
-- Os movimentos válidos entre duas casas. Cada casa tem, no máximo, 8 vizinhos distintos.
+#### Arestas
+Os movimentos válidos entre duas casas. Cada casa tem, no máximo, 8 vizinhos distintos.
 
 #### Tipo de Grafo 
   - **Simples**: sem loops, sem arestas paralelas.
